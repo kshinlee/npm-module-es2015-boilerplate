@@ -12,9 +12,9 @@ class YourClass {
 
 function areYouHappy(bool) {
   if (bool) {
-    console.log('I am happy.');
+    console.log('I am happy0');
   } else {
-    console.log('I want to be happy.');
+    console.log('I want to be happ');
   }
 }
 
