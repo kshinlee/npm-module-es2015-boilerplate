@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jeff Gu Kang",
+  "contributors": {
+    "author": "Jeff Gu Kang",
+    "author": "Muhun Kim <muhun.kim@gmail.com> (http://blog.muhun.kim)"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-preset-es2015": "^6.14.0",
