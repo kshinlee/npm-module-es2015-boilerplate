@@ -6,7 +6,7 @@ class YourClass {
   }
 
   speak() {
-    console.log('I am saying: ' + this.say);
+    console.log(`I am saying: ${this.say}`);
   }
 }
 
@@ -14,11 +14,11 @@ function areYouHappy(bool) {
   if (bool) {
     console.log('I am happy');
   } else {
-    console.log('I want to be happ');
+    console.log('I want to be happy');
   }
 }
 
 module.exports = {
   YourClass,
-  areYouHappy
-}
+  areYouHappy,
+};
