@@ -6,12 +6,11 @@ function emptyDist() {
       if (err) {
         console.error(err);
         reject();
-      }
-      else {
+      } else {
         console.log('emptying dist directory job is done');
         resolve();
       }
-    })
+    });
   });
 }
 
