@@ -12,7 +12,7 @@ class YourClass {
 
 function areYouHappy(bool) {
   if (bool) {
-    console.log('I am happy0');
+    console.log('I am happy');
   } else {
     console.log('I want to be happ');
   }
