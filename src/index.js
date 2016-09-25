@@ -10,4 +10,3 @@ newDiv2.appendChild(newContent2);
 
 document.body.appendChild(newDiv);
 document.body.appendChild(newDiv2);
-
