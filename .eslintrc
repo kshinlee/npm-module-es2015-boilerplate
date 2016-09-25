@@ -6,7 +6,7 @@
     }
   },
   "globals": {
-    # Global variables
+    "document": 1
   },
   "rules": {
     "func-names": "off",
