@@ -10,7 +10,10 @@
     "dev": "webpack-dev-server --content-base src/index --hot --host 0.0.0.0 --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jeff Gu Kang",
+  "contributors": {
+    "author": "Jeff Gu Kang",
+    "author": "Muhun Kim <muhun.kim@gmail.com> (http://blog.muhun.kim)"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.14.0",
