@@ -39,7 +39,7 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: './index.ejs',
+      template: './views/pages/index.ejs',
       inject: false,
     }),
   ],
