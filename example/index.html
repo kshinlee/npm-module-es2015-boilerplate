@@ -1,39 +1,19 @@
 <!DOCTYPE html>
-
 <html>
   <head>
-    <title>Example</title>
+    <title>Test</title>
   </head>
-  <script src="projectname.js"></script>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  <script type="text/javascript">
-    window.onload = function () {
 
-      $('#SAY').change(function() {
-        var yourClass = new yourprojectname.YourClass($('#SAY').val());
-        $('#RESULT_SAY').val(yourClass.speak());
-      });
-
-      $('input[name="happy"]').change(function() {
-        $('#RESULT_HAPPY').val(yourprojectname.areYouHappy($(':radio[name="happy"]:checked').val()));
-      });
-
-    };
-  </script>
   <body>
-  <h1>1.기본 실행 샘플</h1>
-  <h2>Q:질문</h2>
-  <h3>&nbsp;&nbsp;1)당신은 행복하십니까?</h3>
-  &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="happy" value="ok">네
-  &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="happy" value="no">아니요
-  <br>
-  <h3>&nbsp;&nbsp;2)그 이유는 무었입니까?</h3>
-  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="SAY" style="width:500px;">
-
-  <h2>R:결과</h2>
-  <h3>&nbsp;&nbsp;1)당신은 행복하십니까?</h3>
-  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="RESULT_HAPPY" readonly="true" style="width:500px;"><br>
-  <h3>&nbsp;&nbsp;2)그 이유는 무었입니까?</h3>
-  &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="RESULT_SAY" readonly="true" style="width:500px;">
+    <h1>Test</h1>
+    <script src="projectname.js"></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        console.log("loaded");
+        var yourClass = new yourprojectname.YourClass('Hello');
+        yourClass.speak();
+        yourprojectname.areYouHappy(false);
+      };
+    </script>
   </body>
 </html>
