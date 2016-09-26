@@ -4,7 +4,8 @@
 ## Commands
 * `npm install` : Dependency module install
 * `npm run build` : Do some magic with ES6 to create ES5 code.
-* `npm run dev` : Run server
+* `npm run test` : Run test with [karma](https://karma-runner.github.io)
+* `npm run dev` : Run develop server
  * You can see result in http://0.0.0.0:8080
 
 ## License
