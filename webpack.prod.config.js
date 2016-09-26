@@ -1,6 +1,6 @@
 require('extract-text-webpack-plugin');
 const webpack = require('webpack');
-const webpackSettings = require('../src/webpack.config');
+const webpackSettings = require('./webpack.config');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const optimizingPlugins = [
@@ -10,7 +10,7 @@ const optimizingPlugins = [
   new webpack.optimize.OccurrenceOrderPlugin,
   new webpack.optimize.UglifyJsPlugin,
   new HtmlWebpackPlugin({
-    template: 'scripts/index.ejs',
+    template: './views/index.ejs',
     inject: false,
   }),
 ];
