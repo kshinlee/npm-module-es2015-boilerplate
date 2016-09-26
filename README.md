@@ -13,5 +13,5 @@ Just clone this repo and remove `.git` folder.
 ```
 MIT License
 
-Copyright (c) 2016 Jeff kang
+Copyright (c) 2016 KossHackaton OneTeam
 ```
