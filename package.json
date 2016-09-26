@@ -6,8 +6,8 @@
     "node": ">=0.4.5"
   },
   "scripts": {
-    "build": "babel-node scripts/build && webpack --config ./scripts/webpack.prod.config.js",
-    "dev": "webpack-dev-server --content-base src/index --hot --host 0.0.0.0 --config ./src/webpack.config.js",
+    "build": "babel-node src/build/emptyFolder && webpack --config ./webpack.prod.config.js",
+    "dev": "webpack-dev-server --content-base src/index --hot --host 0.0.0.0 --config ./webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jeff Gu Kang",
