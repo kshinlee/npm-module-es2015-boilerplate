@@ -4,6 +4,7 @@
 ## Commands
 * `npm run build` : Do some magic with ES6 to create ES5 code.
 * `npm run dev` : Run server
+* `npm run test` : Test run
 
 ## Installation
 Just clone this repo and `npm init && npm install`
