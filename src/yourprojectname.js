@@ -6,15 +6,15 @@ class YourClass {
   }
 
   speak() {
-    return this.say;
+    console.log('I am saying: ' + this.say);
   }
 }
 
 function areYouHappy(bool) {
-  if (bool == "ok") {
-    return "I am happy!";
+  if (bool) {
+    console.log('I am happy');
   } else {
-    return "I want to be happy!";
+    console.log('I want to be happ');
   }
 }
 
