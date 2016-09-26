@@ -10,7 +10,7 @@ const optimizingPlugins = [
   new webpack.optimize.OccurrenceOrderPlugin,
   new webpack.optimize.UglifyJsPlugin,
   new HtmlWebpackPlugin({
-    template: 'src/index.ejs',
+    template: './views/index.ejs',
     inject: false,
   }),
 ];
