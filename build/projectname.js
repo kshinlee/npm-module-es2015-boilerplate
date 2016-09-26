@@ -14,15 +14,15 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 module.exports = YOUR_PROJECTNAME;
 
 },{"./src/yourprojectname.js":2}],2:[function(require,module,exports){
-'use strict';
+"use strict";
 
-var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 // Given a _sharedData from instagram script, return a JSON.
 
-var YourClass = (function () {
+var YourClass = function () {
   function YourClass(say) {
     _classCallCheck(this, YourClass);
 
@@ -30,20 +30,20 @@ var YourClass = (function () {
   }
 
   _createClass(YourClass, [{
-    key: 'speak',
+    key: "speak",
     value: function speak() {
-      console.log('I am saying: ' + this.say);
+      return this.say;
     }
   }]);
 
   return YourClass;
-})();
+}();
 
 function areYouHappy(bool) {
-  if (bool) {
-    console.log('I am happy.');
+  if (bool == "ok") {
+    return "I am happy!";
   } else {
-    console.log('I want to be happy.');
+    return "I want to be happy!";
   }
 }
 
