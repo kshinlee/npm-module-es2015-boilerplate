@@ -1,18 +1,27 @@
 const defaultModule = {
-  name: 'Koss Project 1',
-};
-
-export const foo = function plus(a,b){
-  return "1 + 2 = " + (a + b) ;
-};
-
-export const time = function currenttime(){
-  return Date();
+  name: 'my name is default module',
 };
 
 export const otherModule = {
   name: 'my name is other module. please look the differences between us',
 };
 
+export class Calculator {
+  add(op1, op2) {
+    return op1 + op2;
+  }
 
-export default defaultModule;
+  sub(op1, op2) {
+    return op1 - op2;
+  }
+
+  mul(op1, op2) {
+    return op1 * op2;
+  }
+
+  div(op1, op2) {
+    return op1 / op2;
+  }
+}
+
+export default defaultModule ;
