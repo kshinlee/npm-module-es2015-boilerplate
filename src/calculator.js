@@ -1,6 +1,3 @@
-/*
-  Example Js file for Testing
- */
 class Calculator {
   add(op1, op2) {
     return op1 + op2;
@@ -19,4 +16,4 @@ class Calculator {
   }
 }
 
-export default Calculator;
+export default Calculator ;

@@ -1,12 +1,15 @@
-import defaultModule, { otherModule } from './exampleModule';
+import Caculater from './calculator';
+
+const c = new Caculater();
 
 const newDiv = document.createElement('h1');
-const newContent = document.createTextNode(defaultModule.name);
-newDiv.appendChild(newContent);
+const br = document.createElement('br');
 
-const newDiv2 = document.createElement('h2');
-const newContent2 = document.createTextNode(otherModule.name);
-newDiv2.appendChild(newContent2);
+const add = document.createTextNode(`4 + 2 = ${c.add(4, 2)}`);
+const sub = document.createTextNode(`4 - 2 = ${c.sub(4, 2)}`);
+
+newDiv.appendChild(add);
+newDiv.appendChild(br);
+newDiv.appendChild(sub);
 
 document.body.appendChild(newDiv);
-document.body.appendChild(newDiv2);

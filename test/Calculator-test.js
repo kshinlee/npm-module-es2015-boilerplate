@@ -2,7 +2,7 @@
   Example Unit Test
  */
 
-import Calculator from '../example/Calculator';
+import Calculator from '../src/calculator';
 
 describe('Calculator', () => {
   it('should add two numbers', () => {
